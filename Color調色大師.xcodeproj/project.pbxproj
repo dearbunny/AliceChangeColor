@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A5A7889263FE8AB003DCB17 /* CALayer+CALayer_borderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A7888263FE8AB003DCB17 /* CALayer+CALayer_borderColor.m */; };
 		9A7DEF92263FD1B00066CBFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7DEF91263FD1B00066CBFA /* AppDelegate.swift */; };
 		9A7DEF94263FD1B00066CBFA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7DEF93263FD1B00066CBFA /* SceneDelegate.swift */; };
 		9A7DEF96263FD1B00066CBFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7DEF95263FD1B00066CBFA /* ViewController.swift */; };
 		9A7DEF99263FD1B00066CBFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A7DEF97263FD1B00066CBFA /* Main.storyboard */; };
 		9A7DEF9B263FD1B10066CBFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A7DEF9A263FD1B10066CBFA /* Assets.xcassets */; };
 		9A7DEF9E263FD1B10066CBFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A7DEF9C263FD1B10066CBFA /* LaunchScreen.storyboard */; };
+		9A7DEFAD263FD9080066CBFA /* NaikaiFont-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A7DEFAC263FD9080066CBFA /* NaikaiFont-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A5A7886263FE8AA003DCB17 /* Color調色大師-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Color調色大師-Bridging-Header.h"; sourceTree = "<group>"; };
+		9A5A7887263FE8AB003DCB17 /* CALayer+CALayer_borderColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+CALayer_borderColor.h"; sourceTree = "<group>"; };
+		9A5A7888263FE8AB003DCB17 /* CALayer+CALayer_borderColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+CALayer_borderColor.m"; sourceTree = "<group>"; };
 		9A7DEF8E263FD1B00066CBFA /* Color調色大師.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color調色大師.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A7DEF91263FD1B00066CBFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A7DEF93263FD1B00066CBFA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		9A7DEF9A263FD1B10066CBFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A7DEF9D263FD1B10066CBFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A7DEF9F263FD1B10066CBFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A7DEFAC263FD9080066CBFA /* NaikaiFont-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NaikaiFont-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,14 @@
 				9A7DEF91263FD1B00066CBFA /* AppDelegate.swift */,
 				9A7DEF93263FD1B00066CBFA /* SceneDelegate.swift */,
 				9A7DEF95263FD1B00066CBFA /* ViewController.swift */,
+				9A5A7887263FE8AB003DCB17 /* CALayer+CALayer_borderColor.h */,
+				9A5A7888263FE8AB003DCB17 /* CALayer+CALayer_borderColor.m */,
 				9A7DEF97263FD1B00066CBFA /* Main.storyboard */,
 				9A7DEF9A263FD1B10066CBFA /* Assets.xcassets */,
 				9A7DEF9C263FD1B10066CBFA /* LaunchScreen.storyboard */,
 				9A7DEF9F263FD1B10066CBFA /* Info.plist */,
+				9A7DEFAC263FD9080066CBFA /* NaikaiFont-Regular.ttf */,
+				9A5A7886263FE8AA003DCB17 /* Color調色大師-Bridging-Header.h */,
 			);
 			path = "Color調色大師";
 			sourceTree = "<group>";
@@ -98,6 +108,7 @@
 				TargetAttributes = {
 					9A7DEF8D263FD1B00066CBFA = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
@@ -125,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A7DEF9E263FD1B10066CBFA /* LaunchScreen.storyboard in Resources */,
+				9A7DEFAD263FD9080066CBFA /* NaikaiFont-Regular.ttf in Resources */,
 				9A7DEF9B263FD1B10066CBFA /* Assets.xcassets in Resources */,
 				9A7DEF99263FD1B00066CBFA /* Main.storyboard in Resources */,
 			);
@@ -138,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A7DEF96263FD1B00066CBFA /* ViewController.swift in Sources */,
+				9A5A7889263FE8AB003DCB17 /* CALayer+CALayer_borderColor.m in Sources */,
 				9A7DEF92263FD1B00066CBFA /* AppDelegate.swift in Sources */,
 				9A7DEF94263FD1B00066CBFA /* SceneDelegate.swift in Sources */,
 			);
@@ -286,6 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q552KV7YR5;
 				INFOPLIST_FILE = "Color調色大師/Info.plist";
@@ -295,6 +309,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "CuteBunny.Color----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Color調色大師/Color調色大師-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,6 +321,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q552KV7YR5;
 				INFOPLIST_FILE = "Color調色大師/Info.plist";
@@ -314,6 +331,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "CuteBunny.Color----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Color調色大師/Color調色大師-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
