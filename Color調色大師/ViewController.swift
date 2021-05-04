@@ -116,7 +116,8 @@ class ViewController: UIViewController {
     }
     
 
-    
+    // 調顏色區（注意：每調整一次Slider就要儲存新的值進變數中）並用if else判斷要調哪個物件的顏色
+    // Slider更動
     @IBAction func changeColor(_ sender: Any) {
         if changeElementSegmentedControl.selectedSegmentIndex == 0{
             aliceBackgroundImageView.backgroundColor = UIColor(red: CGFloat(redSlider.value), green: CGFloat(greenSlider.value), blue: CGFloat(blueSlider.value), alpha: CGFloat(alphaSlider.value))
@@ -285,13 +286,14 @@ class ViewController: UIViewController {
     // 邊框圓角陰影變動
     @IBAction func radiusSliderChange(_ sender: Any) {
         aliceBackgroundImageView.layer.cornerRadius = CGFloat(radiusSlider.value)
+        shadowView.layer.cornerRadius = CGFloat(radiusSlider.value)
     }
     @IBAction func borderSliderChange(_ sender: Any) {
         aliceBackgroundImageView.clipsToBounds = true
         aliceBackgroundImageView.layer.borderWidth = CGFloat(borderSlider.value)
     }
     @IBAction func shadowSliderChange(_ sender: Any) {
-        aliceBackgroundImageView.layer.shadowRadius = CGFloat(shadowSlider.value)
+        shadowView.layer.shadowRadius = CGFloat(shadowSlider.value)
     }
     
     
